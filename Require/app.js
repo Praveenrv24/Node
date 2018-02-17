@@ -4,14 +4,16 @@ console.log('starting the app');
 const fs = require('fs');
 const os = require('os');
 
+var user = os.userInfo();
+
+
 //require extenal file
 const notes = require('./notes.js'); 
-
-var user = os.userInfo();
 var res = notes.addNote();
 console.log(res);
+fs.appendFile('Greetings.txt',`Hello ${user.username}!. You are ${notes.age}.`);
 
 //calling add funtion
 console.log("Result:",notes.add(9,-3));
 
-fs.appendFile('Greetings.txt',`Hello ${user.username}!. You are ${notes.age}.`);
+
