@@ -17,3 +17,12 @@ fs.appendFile('Greetings.txt',`Hello ${user.username}!. You are ${notes.age}.`);
 console.log("Result:",notes.add(9,-3));
 
 
+//require thrid party packges(npm)
+const _ = require('lodash');
+
+console.log(_.isString('Pravi'));
+console.log(_.isString(true));
+
+var arrayFiltered = _.uniq(['Lalu','Pravi','Paru','Lalu']);
+console.log(arrayFiltered);
+
