@@ -17,7 +17,7 @@ fs.appendFile('Greetings.txt',`Hello ${user.username}!. You are ${notes.age}.`);
 console.log("Result:",notes.add(9,-3));
 
 
-//require thrid party packges(npm)
+//require thrid party packges(npm Packages)
 const _ = require('lodash');
 
 console.log(_.isString('Pravi'));
