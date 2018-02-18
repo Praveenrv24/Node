@@ -23,6 +23,6 @@ const _ = require('lodash');
 console.log(_.isString('Pravi'));
 console.log(_.isString(true));
 
-var arrayFiltered = _.uniq(['Lalu','Pravi','Paru','Lalu']);
+var arrayFiltered = _.uniq(['Lalu','Pravi','Paru','Lalu',1]);
 console.log(arrayFiltered);
 
