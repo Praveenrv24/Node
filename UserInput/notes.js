@@ -4,9 +4,14 @@ var addNote = (title,body) => {
     console.log("Adding Notes", title,body);
 }
 
-//exporting function
+var getAll = () => {
+    console.log("Getting all notes");
+}
+
+//exporting function if function name and value is identical
 module.exports = {
-    addNote
+    addNote,
+    getAll
 }
 
 /* Another way of writting exports
