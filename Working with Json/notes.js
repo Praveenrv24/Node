@@ -1,3 +1,6 @@
+//Sample file this can be tested with User Input Folder
+
+
 console.log('starting notes.js');
 const fs = require('fs');
 
@@ -15,7 +18,6 @@ var addNote = (title,body) => {
     }
     
     var duplicateNotes = notes.filter((note) => note.title === title);
-    console.log(duplicateNotes);
 
 
     if (duplicateNotes.length === 0) {
