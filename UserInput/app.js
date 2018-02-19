@@ -4,7 +4,7 @@ console.log('starting the app');
 const fs = require('fs');
 
 //require thrid party packges(npm)
-const _ = require('lodash');
+const _ = require('lodash'); 
 const yargs = require('yargs'); // For parsing/getting the arguments as objects. 
 
 //require extenal file
