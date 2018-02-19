@@ -23,6 +23,10 @@ const _ = require('lodash');
 console.log(_.isString('Pravi'));
 console.log(_.isString(true));
 
-var arrayFiltered = _.uniq(['Lalu','Pravi','Paru','Lalu',1]);
+var arrayFiltered = _.uniq(['Lalu','Pravi','Paru','Lalu',1,2]);
 console.log(arrayFiltered);
 
+/*
+command for running nodemon             : ***** nodemon app.js *****  This should install globally
+command for generting package.json file : ***** npm init *****
+*/
