@@ -17,7 +17,7 @@ var addNote = (title,body) => {
     
     }
     
-    var duplicateNotes = notes.filter((note) => note.title === title);
+    var duplicateNotes = notes.filter((note) => note.title === title); // return true and keep the value or false and array will be empty
 
 
     if (duplicateNotes.length === 0) {

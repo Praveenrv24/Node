@@ -28,5 +28,6 @@ console.log(arrayFiltered);
 
 /*
 command for running nodemon             : ***** nodemon app.js *****  This should install globally
+
 command for generting package.json file : ***** npm init *****
 */

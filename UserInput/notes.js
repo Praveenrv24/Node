@@ -1,6 +1,7 @@
 console.log('starting notes.js');
 
 var addNote = (title,body) => {
+    debugger;
     console.log("Adding Notes", title,body);
 }
 
